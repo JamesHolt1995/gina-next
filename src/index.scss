@@ -1,8 +1,9 @@
-//base (normalize imported in js)
-@use "./scss/base";
-
 //typography
 @use "./scss/typography/font";
+
+//base (normalize imported in js)
+@use "../node_modules/normalize.css/normalize.css";
+@use "./scss/base";
 
 //Components
 @use "./scss/Components/Nav";
