@@ -1,0 +1,28 @@
+{
+  "name": "gina-next",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@portabletext/react": "^3.0.7",
+    "@sanity/image-url": "^1.0.2",
+    "@sanity/vision": "^3.16.7",
+    "eslint": "8.49.0",
+    "eslint-config-next": "13.4.19",
+    "groq": "^3.16.7",
+    "gsap": "^3.12.2",
+    "next": "13.4.19",
+    "next-sanity": "^5.5.4",
+    "normalize.css": "^8.0.1",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "sanity": "^3.16.7",
+    "sass": "^1.67.0",
+    "styled-components": "5.2"
+  }
+}

@@ -1,0 +1,33 @@
+.Nav {
+    position: fixed;
+    top:0;
+    left:0;
+    z-index: 99;
+    display: flex;
+    justify-content: space-between;
+    width:100%;
+    padding: 1rem;
+    box-sizing: border-box;
+    &__menu {
+        display: flex;
+        gap: 0.5rem;
+        text-decoration: none;
+        list-style: none;
+        margin:0;
+        li {
+            border: 1px solid var(--dark);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 0.6rem 1.5rem 0.4rem 1.5rem;
+            border-radius: 70px;
+            font-size: 1.4rem;
+            max-height: 2rem;
+        }
+
+        a {
+            text-decoration: none;
+            color: var(--dark);
+        }
+    }
+}

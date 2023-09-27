@@ -1,0 +1,9 @@
+//base (normalize imported in js)
+@use "./scss/base";
+
+//typography
+@use "./scss/typography/font";
+
+//Components
+@use "./scss/Components/Nav";
+@use "./scss/Components/Hero";

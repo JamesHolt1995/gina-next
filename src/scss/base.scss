@@ -1,0 +1,14 @@
+:root {
+    --dark: #303036;
+    --light: #F4F2F3;
+    --primary: #CAFE00;
+    --secondary: #F75590;
+    --tertiary: #26F0F1;
+
+    --base-font: roc-grotesk, sans-serif;
+    --compressed-font: roc-grotesk-compressed, sans-serif;
+}
+
+html {
+    font-family: var(--base-font);
+}
